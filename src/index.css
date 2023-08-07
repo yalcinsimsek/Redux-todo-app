@@ -24,8 +24,8 @@ button {
 body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
-	background: #f5f5f5;
-	color: #4d4d4d;
+	background: #2c2929;
+	color: rgba(59, 178, 211, 0.995);
 	min-width: 230px;
 	max-width: 550px;
 	margin: 0 auto;
@@ -75,7 +75,7 @@ body {
 	font-size: 100px;
 	font-weight: 100;
 	text-align: center;
-	color: rgba(175, 47, 47, 0.15);
+	color: rgba(248, 137, 2, 0.995);
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
