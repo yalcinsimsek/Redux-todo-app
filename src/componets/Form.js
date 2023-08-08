@@ -9,6 +9,7 @@ const [title, setTitle] = useState('');
 const dispatch = useDispatch();
 
 const handleSubmit = (e) => {
+  if (!title) return;
   e.preventDefault();
 
   dispatch(addTodo( { id:nanoid(),title, completed: false, } ))
